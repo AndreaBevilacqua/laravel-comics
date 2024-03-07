@@ -1,6 +1,6 @@
 <header>
     <section class="container">
-        <img src="{{ asset('img/dc-logo.png') }}" alt="dc-logo">
+        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo">
         <div id="navbar">
             <ul>
                 <li><a href="{{route('home')}}">Home</a></li>

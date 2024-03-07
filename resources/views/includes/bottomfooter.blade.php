@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer-bottom">
     <div class="container">
         <div class="links-footer">
             <div class="links-col">

@@ -1,5 +1,5 @@
-footer {
-    background-image: url(../assets/img/footer-bg.jpg);
+.footer-bottom {
+    background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 380px;
@@ -18,8 +18,9 @@ h3 {
 }
 
 a {
-    color: gray;
-    font-size: 0.8rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .links-footer {
