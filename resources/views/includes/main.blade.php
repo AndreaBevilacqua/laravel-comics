@@ -3,7 +3,11 @@
     </section>
     <div class="top-main">
         <div class="container card-container">
-            <ComicCard v-for="(comic, i) in comics" :key="i" :title="comic.series" :image="comic.thumb" />
+           @foreach ($comics as $comic) 
+           <div class="comic-card">
+            <img src="" alt="">
+           </div>
+           @endforeach
         </div>
         <button>LOAD MORE</button>
     </div>
