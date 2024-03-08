@@ -33,6 +33,11 @@
 
     .comic-card {
         flex-basis: calc(100% / 6);
+
+        h6 {
+            color: white;
+            margin: 1rem 0;
+        }
     }
 }
 
@@ -66,9 +71,10 @@
         gap: 20px;
     }
 
-    #jumbotron {
-        height: 400px;
-        background-color: red;
-        background-image: url(../img/jumbotron.jpg);
-    }
+}
+
+#jumbotron {
+    height: 400px;
+    background-color: red;
+    background-image: url(../img/jumbotron.jpg);
 }
