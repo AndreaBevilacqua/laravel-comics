@@ -4,26 +4,31 @@
     background-size: cover;
     height: 380px;
     padding: 2rem;
-}
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
+    h3 {
+        text-transform: uppercase;
+        color: white;
+        margin: 10px 0;
+        font-size: 1rem;
+    }
 
-h3 {
-    text-transform: uppercase;
-    color: white;
-    margin: 10px 0;
-}
+    .links-footer {
+        display: flex;
+        gap: 20px;
 
-a {
-    color: black;
-    font-size: 1rem;
-    font-weight: bold;
-}
+        li {
+            line-height: 0.8;
+        }
+    }
 
-.links-footer {
-    display: flex;
-    gap: 20px;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
