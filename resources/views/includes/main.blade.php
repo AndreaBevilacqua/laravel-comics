@@ -3,9 +3,9 @@
     </section>
     <div class="top-main">
         <div class="container card-container">
-           @foreach ($comics as $comic) 
+           @foreach ($comics as $index => $comic) 
            <div class="comic-card">
-            <a href="{{route('comic')}}">
+            <a href="{{url("/comics/$index")}}">
                 <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                 <h6>{{$comic['title']}}</h6>
             </a>
