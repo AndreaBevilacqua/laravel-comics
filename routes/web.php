@@ -449,7 +449,7 @@ Route::get('/comics', function () {
     return view('comics',compact('comics'));
 })->name('comics');
 
-Route::get('/comic', function(){
+Route::get('/comics/{index}', function($index){
     $comics = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -663,5 +663,5 @@ Route::get('/comic', function(){
             ],
         ],
     ];
-    return view('products.comic',['comic' =>$comics[0]]);
+    return view('products.comic',['comic' =>$comics[$index]]);
 })->name('comic');

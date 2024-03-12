@@ -8,21 +8,22 @@
 
 @section('core-content')
     <section id="jumbotron"></section>
-    {{-- <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}"> --}}
     <div class="blue-bar">
-
+        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
     </div>
-    <div class="container d-flex">
+    <div class="container" id="single-card">
         <div class="details">
             <h1>{{$comic['title']}}</h1>
-            <div class="price">
-                <span>U.S. Price:{{$comic['price']}}</span>
-                <p>AVAILABLE</p>
+            <div class="green-bar">
+                <div class="price">
+                    <span>U.S. Price: {{$comic['price']}}</span>
+                    <p>AVAILABLE</p>
+                </div>
+                <div class="checking">
+                    Check Availability <i class="fa-solid fa-caret-down"></i>
+                </div>
             </div>
-            <div class="checking">
-                Check Availability
-            </div>
-            <p>{{$comic['description']}}</p>
+            <p class="text">{{$comic['description']}}</p>
         </div>
         <div class="advertisment">
             <h2>ADVERTISMENT</h2>
